@@ -7,9 +7,15 @@
 //
 
 #include <stdio.h>
+#include "test.h"
 
 int main()
 {
     printf("Hello World!\n你好 世界\n");
+    
+    test();//test函数调用
+    add(13, 15);//add函数被调用
+    
     return 0;
 }
+

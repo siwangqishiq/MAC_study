@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B714044F19B2AC9A00923194 /* Hello.c in Sources */ = {isa = PBXBuildFile; fileRef = B714044E19B2AC9A00923194 /* Hello.c */; };
-		B714045219B2CED100923194 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = B714045119B2CED100923194 /* test.c */; };
+		B714047519B2E1AD00923194 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B714047419B2E1AD00923194 /* main.c */; };
+		B714047719B2E1AD00923194 /* scanf__.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B714047619B2E1AD00923194 /* scanf__.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B714043F19B2A62700923194 /* CopyFiles */ = {
+		B714046F19B2E1AD00923194 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
+				B714047719B2E1AD00923194 /* scanf__.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B714044119B2A62700923194 /* 第一个C程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第一个C程序"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B714044E19B2AC9A00923194 /* Hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Hello.c; sourceTree = "<group>"; };
-		B714045019B2CE6C00923194 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		B714045119B2CED100923194 /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		B714047119B2E1AD00923194 /* scanf函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "scanf函数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B714047419B2E1AD00923194 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B714047619B2E1AD00923194 /* scanf__.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = scanf__.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B714043E19B2A62700923194 /* Frameworks */ = {
+		B714046E19B2E1AD00923194 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,92 +41,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B714043819B2A62700923194 = {
+		B714046819B2E1AD00923194 = {
 			isa = PBXGroup;
 			children = (
-				B714044319B2A62700923194 /* 第一个C程序 */,
-				B714044219B2A62700923194 /* Products */,
+				B714047319B2E1AD00923194 /* scanf函数 */,
+				B714047219B2E1AD00923194 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B714044219B2A62700923194 /* Products */ = {
+		B714047219B2E1AD00923194 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B714044119B2A62700923194 /* 第一个C程序 */,
+				B714047119B2E1AD00923194 /* scanf函数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B714044319B2A62700923194 /* 第一个C程序 */ = {
+		B714047319B2E1AD00923194 /* scanf函数 */ = {
 			isa = PBXGroup;
 			children = (
-				B714044E19B2AC9A00923194 /* Hello.c */,
-				B714045019B2CE6C00923194 /* test.h */,
-				B714045119B2CED100923194 /* test.c */,
+				B714047419B2E1AD00923194 /* main.c */,
+				B714047619B2E1AD00923194 /* scanf__.1 */,
 			);
-			path = "第一个C程序";
+			path = "scanf函数";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B714044019B2A62700923194 /* 第一个C程序 */ = {
+		B714047019B2E1AD00923194 /* scanf函数 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B714044A19B2A62700923194 /* Build configuration list for PBXNativeTarget "第一个C程序" */;
+			buildConfigurationList = B714047A19B2E1AD00923194 /* Build configuration list for PBXNativeTarget "scanf函数" */;
 			buildPhases = (
-				B714043D19B2A62700923194 /* Sources */,
-				B714043E19B2A62700923194 /* Frameworks */,
-				B714043F19B2A62700923194 /* CopyFiles */,
+				B714046D19B2E1AD00923194 /* Sources */,
+				B714046E19B2E1AD00923194 /* Frameworks */,
+				B714046F19B2E1AD00923194 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "第一个C程序";
-			productName = "第一个C程序";
-			productReference = B714044119B2A62700923194 /* 第一个C程序 */;
+			name = "scanf函数";
+			productName = "scanf函数";
+			productReference = B714047119B2E1AD00923194 /* scanf函数 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B714043919B2A62700923194 /* Project object */ = {
+		B714046919B2E1AD00923194 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = xinlan;
 			};
-			buildConfigurationList = B714043C19B2A62700923194 /* Build configuration list for PBXProject "第一个C程序" */;
+			buildConfigurationList = B714046C19B2E1AD00923194 /* Build configuration list for PBXProject "scanf函数" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B714043819B2A62700923194;
-			productRefGroup = B714044219B2A62700923194 /* Products */;
+			mainGroup = B714046819B2E1AD00923194;
+			productRefGroup = B714047219B2E1AD00923194 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B714044019B2A62700923194 /* 第一个C程序 */,
+				B714047019B2E1AD00923194 /* scanf函数 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B714043D19B2A62700923194 /* Sources */ = {
+		B714046D19B2E1AD00923194 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B714044F19B2AC9A00923194 /* Hello.c in Sources */,
-				B714045219B2CED100923194 /* test.c in Sources */,
+				B714047519B2E1AD00923194 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B714044819B2A62700923194 /* Debug */ = {
+		B714047819B2E1AD00923194 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -164,7 +162,7 @@
 			};
 			name = Debug;
 		};
-		B714044919B2A62700923194 /* Release */ = {
+		B714047919B2E1AD00923194 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,14 +194,14 @@
 			};
 			name = Release;
 		};
-		B714044B19B2A62700923194 /* Debug */ = {
+		B714047B19B2E1AD00923194 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		B714044C19B2A62700923194 /* Release */ = {
+		B714047C19B2E1AD00923194 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -213,25 +211,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B714043C19B2A62700923194 /* Build configuration list for PBXProject "第一个C程序" */ = {
+		B714046C19B2E1AD00923194 /* Build configuration list for PBXProject "scanf函数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B714044819B2A62700923194 /* Debug */,
-				B714044919B2A62700923194 /* Release */,
+				B714047819B2E1AD00923194 /* Debug */,
+				B714047919B2E1AD00923194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B714044A19B2A62700923194 /* Build configuration list for PBXNativeTarget "第一个C程序" */ = {
+		B714047A19B2E1AD00923194 /* Build configuration list for PBXNativeTarget "scanf函数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B714044B19B2A62700923194 /* Debug */,
-				B714044C19B2A62700923194 /* Release */,
+				B714047B19B2E1AD00923194 /* Debug */,
+				B714047C19B2E1AD00923194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B714043919B2A62700923194 /* Project object */;
+	rootObject = B714046919B2E1AD00923194 /* Project object */;
 }
