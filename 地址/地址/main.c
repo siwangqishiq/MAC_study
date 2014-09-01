@@ -44,6 +44,30 @@ int main(int argc, const char * argv[])
     //end
       
     //end
+    
+    //数组初始化  地址值
+    int array[2]={10,13};
+    int a2[]={1,2};
+    int array3[10]={};
+    /*
+     数组a[]  []符号代表取内容
+     */
+    
+    int * address_int;
+    address_int = array;
+    sizeof(address_int);
+    
+    printf("地址类型所占字节--->%d \n",sizeof(address_int));
+    
+    float myFloat=10.0f;
+    float* p_float =&myFloat;
+    
+    printf("浮点型数据 指针长度--->%d \n",sizeof(p_float));
+    
+    
+    //二维数组
+    int two[][];//
+    
     return 0;
 }
 
